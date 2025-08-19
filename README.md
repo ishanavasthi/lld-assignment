@@ -1,6 +1,6 @@
 # Amazon Top 50 Bestselling Books (2009-2019) Java Project
 
-This project reads and analyzes Amazon's Top 50 bestselling books from 2009 to 2019 using a CSV dataset. It provides a menu-driven console application to answer queries about books, authors, ratings, and prices.
+This project reads and analyzes Amazon's Top 50 bestselling books from 2009 to 2019 using a CSV dataset.
 
 ## Directory Structure
 ```
@@ -39,9 +39,6 @@ Make sure you are still in the `booksdatabase` directory and run:
 java -cp out com.ishan.utils.Driver
 ```
 
-#### **Note for Linux/Mac users:**
-- The above commands work the same, but if you have issues with the classpath separator, use `:` instead of `;` (for example, `-cp out:...`).
-
 ## CSV File Location
 - The program expects the CSV file to be named `bestsellers with categories.csv` and to be present in the `booksdatabase` directory (the same directory where you run the `java` command).
 
@@ -51,7 +48,6 @@ java -cp out com.ishan.utils.Driver
   - Make sure you are running the `java` command from the correct directory.
 - **Error reading file: ... (The system cannot find the path specified)**
   - Make sure `bestsellers with categories.csv` is in the same directory where you run the `java` command.
-  - If you change the CSV path in the code, update it to match the actual location.
 
 ## Features
 - Total number of books by an author
@@ -61,5 +57,3 @@ java -cp out com.ishan.utils.Driver
 - List names and prices of all books by an author
 
 ---
-
-If you have any issues, please check the troubleshooting section or contact the project maintainer.
